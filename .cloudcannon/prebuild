@@ -1,6 +1,5 @@
 #!/bin/bash
 
-git init
 rm -rf /tmp/hugo_cache/
 npm install -D autoprefixer
 npm install -D postcss-cli
