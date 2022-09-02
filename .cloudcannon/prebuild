@@ -1,8 +1,9 @@
 #!/bin/bash
 
+git init
 rm -rf /tmp/hugo_cache/
 npm install -D autoprefixer
 npm install -D postcss-cli
+
 #npm install -D postcss
-go version
 #cd themes/docsy && git submodule update -f --init && cd ../..
