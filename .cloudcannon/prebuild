@@ -1,7 +1,7 @@
 #!/bin/bash
 
 npm install -D autoprefixer
-npm install -D postcss-cli
-npm install -D postcss
+$npm install -D postcss-cli
+#npm install -D postcss
 
 #cd themes/docsy && git submodule update -f --init && cd ../..
