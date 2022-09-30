@@ -1,0 +1,28 @@
+<p><strong>This is a typical blog post that includes images.</strong></p>
+
+<p>The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.</p>
+
+<h2 id="including-images">Including images</h2>
+
+<p>Here’s an image (<code class="language-plaintext highlighter-rouge">featured-sunset-get.png</code>) that includes a byline and a caption.</p>
+
+<p>Fetch and scale an image in the upcoming Hugo 0.43.</p>
+
+<p>The front matter of this post specifies properties to be assigned to all image resources:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+  params:
+    byline: "Photo: Riona MacNamara / CC-BY-CA"
+</code></pre></div></div>
+
+<p>To include the image in a page, specify its details like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+Fetch and scale an image in the upcoming Hugo 0.43.
+
+</code></pre></div></div>
+
+<p>The image will be rendered at the size and byline specified in the front matter.</p>
+
