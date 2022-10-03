@@ -1,5 +1,6 @@
 # sudo rm -rf $TMPDIR/hugo_cache/
 # hugo version
+cd /usr/local/__site/src/
 npm install --save-dev autoprefixer
 npm install --save-dev postcss-cli
 npm install -D postcss
